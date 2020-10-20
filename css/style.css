@@ -1,25 +1,36 @@
-div{
+div {
     margin: 10px;
 }
-.column{
-    float:left;
+
+.column {
+    float: left;
 }
 
-.left{
-    width:20%
+.left {
+    width: 20%
 }
 
-.middle{
-    width:50%
+.middle {
+    width: 50%
 }
 
-.right{
-    width:20%
+.right {
+    width: 20%
 }
 
-input{
-    width: 90%;
+input {
+    width: 80%;
     padding: 10px;
     margin: 8px 0;
     box-sizing: border-box;
+}
+
+.button-search {
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: red;
+    border: none;
+    color:white;
+    border-radius:4px;
 }

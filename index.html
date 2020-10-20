@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
+
+<head>
     <title>Basic HTML Page Structure</title>
     <link rel="stylesheet" href="css/style.css" />
-  </head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
 
-  <body>
+<body>
     <header>
-      <div class="row">
-        <div class="column left" style="background-color: blueviolet">
-          <img src="rsc/logo3.png" width="90%" />
+        <div class="row">
+            <!-- style="background-color: blueviolet" -->
+            <div class="column left">
+                <img src="src/logo3.png" width="90%" />
+            </div>
+            <div class="column middle">
+                <input type="text" />
+                <button type="button" class="button-search">Search</button>
+            </div>
+            <div class="column right" >
+                <i class="fas fa-user fa-3x"></i>
+                <i class="fas fa-heart fa-3x"></i>
+                <i class="fas fa-cog fa-3x"></i>
+            </div>
         </div>
-        <div class="column middle" style="background-color: burlywood">
-          <input type="text" />
-        </div>
-        <div class="column right" style="background-color: cyan">column #3</div>
-      </div>
     </header>
     <section id="right-col"></section>
     <script src="js/scripts.js"></script>
-  </body>
+</body>
+
 </html>
