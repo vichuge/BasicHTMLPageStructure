@@ -1,33 +1,54 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
+
+<head>
     <title>Basic HTML Page Structure</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <div id="grid-navbar">
-        <!-- style="background-color: blueviolet" -->
-        <div>
-          <i class="fas fa-align-justify fa-1x"></i>
-          <img src="src/logo3.png" width="120px" />
+        <div id="grid-navbar">
+            <!-- style="background-color: blueviolet" -->
+            <div>
+                <i class="fas fa-align-justify fa-1x"></i>
+                <img src="src/logo3.png" width="120px" />
+            </div>
+            <div id='input-wrapper'>
+                <input type="text" placeholder="Search" />
+                <button type="button" class="button-search">
+                    <i class="fas fa-search fa-1x"></i>
+                </button>
+            </div>
+            <div>
+                <i class="fas fa-upload fa-lg"></i>
+                <button id="navbar-btn">Sign in</button>
+            </div>
         </div>
-        <div>
-          <input type="text" />
-          <button type="button" class="button-search">
-            <i class="fas fa-search fa-1x"></i>
-          </button>
-        </div>
-        <div>
-          <i class="fas fa-upload fa-lg"></i>
-          <button id="navbar-btn">Sign in</button>
-        </div>
-      </div>
     </header>
-    <section id="right-col"></section>
-    <script src="js/scripts.js"></script>
-  </body>
+    <div class="content">
+        <div class="row p1">
+            <div id="p1-left">
+                <i class="fas fa-user fa-1x"></i>
+                <p>Choose your language.</p>
+            </div>
+            <div id="p1-right">
+                <i class="fas fa-times fa-1x"></i>
+            </div>
+
+        </div>
+        <div class="row p2">
+            <div id="p2-left">
+                <p>You're viewing YouTube in English (US). You can <a href="">change this preference below.</a></p>
+            </div>
+            <div id="p2-right">
+                <a href="">Learn more</a>
+            </div>       
+        </div>
+    </div>
+    <!--<script src="js/scripts.js"></script>-->
+</body>
+
 </html>
