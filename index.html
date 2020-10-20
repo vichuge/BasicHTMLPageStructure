@@ -4,39 +4,30 @@
   <head>
     <title>Basic HTML Page Structure</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
 
   <body>
-    <nav>
-      <div class="row">
-        <div class="column left" style="background-color: blueviolet">
-          <img src="src/logo3.png" width="90%" />
+    <header>
+      <div id="grid-navbar">
+        <!-- style="background-color: blueviolet" -->
+        <div>
+          <i class="fas fa-align-justify fa-1x"></i>
+          <img src="src/logo3.png" width="120px" />
         </div>
-        <div class="column middle" style="background-color: burlywood">
+        <div>
           <input type="text" />
+          <button type="button" class="button-search">
+            <i class="fas fa-search fa-1x"></i>
+          </button>
         </div>
-        <div class="column right" style="background-color: cyan">column #3</div>
-      </div>
-    </nav>
-    <section id="right-col">
-      <div id="sample-container">
-        <div id="sample-container-left">
-          <div id="sample-thumbanil">
-            <img
-              src="http://i3.ytimg.com/vi/cbP2N1BQdYc/hqdefault.jpg"
-              alt="thumbanil"
-            />
-          </div>
-        </div>
-        <div id="sample-container-right">
-          <h1>Adorable Cute Shy Cat</h1>
-          <div id="sample-info">
-            <p>The Neko Master</p>
-            <p>99,999,999 views</p>
-          </div>
+        <div>
+          <i class="fas fa-upload fa-lg"></i>
+          <button id="navbar-btn">Sign in</button>
         </div>
       </div>
-    </section>
+    </header>
+    <section id="right-col"></section>
     <script src="js/scripts.js"></script>
   </body>
 </html>
