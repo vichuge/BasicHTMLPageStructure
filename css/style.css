@@ -1,36 +1,54 @@
-div {
-    margin: 10px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* resetting the default sizing of divs*/
 }
-
-.column {
-    float: left;
+body {
+  background-color: #f1f1f1;
 }
-
-.left {
-    width: 20%
+#grid-navbar {
+  display: grid;
+  grid-template-columns: 15% 50% 55%;
+  padding: 20px 10px;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(227 224 224);
+  background-color: white;
 }
-
-.middle {
-    width: 50%
+#grid-navbar > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.right {
-    width: 20%
+#grid-navbar > div > i {
+  margin: 0 5px;
+  color: rgb(161 161 161) !important;
 }
-
+#grid-navbar > div:last-child > i {
+  color: #7e7a7a !important;
+}
 input {
-    width: 80%;
-    padding: 10px;
-    margin: 8px 0;
-    box-sizing: border-box;
+  width: 80%;
+  padding: 7px;
+  box-sizing: border-box;
+  border: 1px solid rgb(211, 211, 211);
 }
 
 .button-search {
-    padding: 10px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    background-color: red;
-    border: none;
-    color:white;
-    border-radius:4px;
+  padding: 7px 25px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  border: none;
+  color: grey;
+  border: 1px solid rgb(211, 211, 211);
+}
+#navbar-btn {
+  background-color: #2b7cc1;
+  border: 0;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 2px;
+  margin-left: 30px;
+  font-size: 12px;
 }
