@@ -1,115 +1,170 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* resetting the default sizing of divs*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* resetting the default sizing of divs*/
 }
 
 body {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 #grid-navbar {
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    padding: 20px 10px;
-    width: 100%;
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgb(227 224 224);
-    background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  padding: 8px;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(227 224 224);
+  background-color: white;
 }
 
-#grid-navbar>div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#grid-navbar > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#grid-navbar>div>i {
-    margin: 0 5px;
-    color: rgb(161 161 161) !important;
+#grid-navbar > div > i {
+  margin: 0 5px;
+  color: rgb(161 161 161) !important;
 }
 
-#grid-navbar>div:last-child>i {
-    color: #7e7a7a !important;
+#grid-navbar > div:last-child > i {
+  color: #7e7a7a !important;
 }
 
 #input-wrapper {
-    display: flex;
-    justify-content: flex-start !important;
+  display: flex;
+  justify-content: flex-start !important;
 }
 
 #content-wrapper {
-    margin-left: 20%;
-    margin-right: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 input {
-    width: 55%;
-    padding: 7px;
-    box-sizing: border-box;
-    border: 1px solid rgb(211, 211, 211);
+  width: 55%;
+  padding: 7px;
+  box-sizing: border-box;
+  border: 1px solid rgb(211, 211, 211);
 }
 
 .button-search {
-    padding: 7px 25px;
-    box-sizing: border-box;
-    background-color: #f8f8f8;
-    border: none;
-    color: grey;
-    border: 1px solid rgb(211, 211, 211);
+  padding: 7px 25px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  border: none;
+  color: grey;
+  border: 1px solid rgb(211, 211, 211);
 }
 
 #navbar-btn {
-    background-color: #2b7cc1;
-    border: 0;
-    color: white;
-    padding: 7px 10px;
-    border-radius: 2px;
-    margin-left: 30px;
-    font-size: 12px;
+  background-color: #2b7cc1;
+  border: 0;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 2px;
+  margin-left: 30px;
+  font-size: 12px;
 }
 
-header{
-    margin-bottom: 10px;
+nav {
+  margin-bottom: 10px;
 }
 
 .content {
-    border: #167AC6 2px solid;
-    max-width: 1024px;
-    margin: auto;
-    background: white;
+  max-width: 1024px;
+  margin: auto;
 }
-.p1{
-    justify-content: space-between;
-    display: flex;
-    background-color: #167AC6;
-    color:white;
-    padding:10px 20px ;
+#languague-box {
+  border: #167ac6 2px solid;
+  background: white;
+  margin-bottom: 10px;
 }
-
-#p1-left{
-    display: flex;
-    align-items: center;
+.p1 {
+  justify-content: space-between;
+  display: flex;
+  background-color: #167ac6;
+  color: white;
+  padding: 10px 20px;
 }
 
-#p1-left i{
-    margin-right: 10px;
+#p1-left {
+  display: flex;
+  align-items: center;
 }
 
-.p2{
-    justify-content: space-between;
-    display: flex;
-    padding:10px 20px ;
+#p1-left i {
+  margin-right: 10px;
 }
 
-#p2-left p a{
-    text-decoration:none;
-    color: #167AC6;
+.p2 {
+  justify-content: space-between;
+  display: flex;
+  padding: 10px 20px;
 }
 
-#p2-right a{
-    color: #167AC6;
-    text-decoration: none;
-    font-size: 12px;
+#p2-left p a {
+  text-decoration: none;
+  color: #167ac6;
+}
+
+#p2-right a {
+  color: #167ac6;
+  text-decoration: none;
+  font-size: 12px;
+}
+#video-section {
+  display: grid;
+  grid-template-columns: 1fr 40%;
+}
+#video-left img {
+  width: 98%;
+}
+#video-right {
+  padding: 10px;
+  background: white;
+}
+#video-right-sample {
+  margin: 10px 0;
+}
+.Up-next {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0px 0 10px 0;
+  margin: 15px 0 !important;
+  display: flex;
+  font-family: "YouTube Noto", Roboto, arial, sans-serif !important;
+  flex-direction: column;
+}
+#video-right-sample h3 {
+  font-size: 14px;
+  font-weight: 300;
+}
+#video-right-sample {
+  display: flex;
+  font-family: "YouTube Noto", Roboto, arial, sans-serif !important;
+  /* flex-direction: column; */
+}
+.Up-next > div {
+  display: flex;
+  justify-content: space-between;
+}
+#video-right-sample-left img {
+  height: 110px;
+  width: 190px;
+}
+#video-right-sample-right {
+  padding: 5px 10px;
+}
+#video-sample-details > p:first-child {
+  font-size: 12px;
+  margin: 3px 0;
+  color: #959595;
+}
+#video-sample-details > p:last-child {
+  font-size: 10px;
+  margin: 3px 0;
+  color: #959595;
 }
