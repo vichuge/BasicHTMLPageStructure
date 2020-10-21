@@ -138,12 +138,12 @@ nav {
 }
 
 .Up-next {
-  border-bottom: 1px solid #e5e5e5;
-  padding: 0px 0 10px 0;
-  margin: 0 0 15px 0 !important;
-  display: flex;
-  font-family: "YouTube Noto", Roboto, arial, sans-serif !important;
-  flex-direction: column;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0px 0 10px 0;
+    margin: 0 0 15px 0 !important;
+    display: flex;
+    font-family: "YouTube Noto", Roboto, arial, sans-serif !important;
+    flex-direction: column;
 }
 
 #video-right-sample h3 {
@@ -193,6 +193,8 @@ nav {
 }
 
 .video-info>h2 {
+    font-weight: 500;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
@@ -201,62 +203,105 @@ nav {
 }
 
 .body-info {
-    display: grid;
-    grid-template-columns: auto 500px;
+    /*When use display:flex, for columns we use justifiy-content:center and align-items:center*/
+    /*display: flex;
+    justify-content: flex-start;
+    align-items: center;*/
+    display:grid;
+    grid-template-columns: 10% 1fr;
+    grid-gap: 5px;
 }
 
-.profile-info{
-    margin-left: 10px;
+.profile-info>h3 {
+    margin-top:5px;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 #next-play-left p {
-  font-size: 13px;
-  padding: 5px 0;
+    font-size: 13px;
+    padding: 5px 0;
 }
+
 #next-play-right {
-  color: #7e7e7e;
-  font-size: 13px !important;
+    color: #7e7e7e;
+    font-size: 13px !important;
 }
-#next-play-right > i {
-  margin: 0 5px;
+
+#next-play-right>i {
+    margin: 0 5px;
 }
+
 #radio-label {
-  width: 40px;
-  height: 16px;
-  position: relative;
-  display: inline-block;
+    width: 40px;
+    height: 16px;
+    position: relative;
+    display: inline-block;
 }
+
 #radio-label input {
-  height: 0;
-  width: 0;
-  opacity: 0;
+    height: 0;
+    width: 0;
+    opacity: 0;
 }
+
 #toggler {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #167ac6;
-  border-radius: 35px;
-  display: flex;
-  align-items: center;
-  padding: 0 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #167ac6;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
 }
+
 #toggler i {
-  color: white;
-  font-size: 10px;
+    color: white;
+    font-size: 10px;
 }
+
 #toggler:before {
-  position: absolute;
-  content: "";
-  height: 14px;
-  width: 14px;
-  left: 3px;
-  bottom: 1px;
-  background-color: white;
-  border-radius: 50%;
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 1px;
+    background-color: white;
+    border-radius: 50%;
 }
+
 #toggler:before {
-  transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+#btn-subscribe {
+    background-color: red;
+    border: none;
+    border-radius: 0%;
+    color: white;
+    padding: 5px 10px;
+}
+
+.subscribe {
+    display:flex;
+    align-items:center;
+    margin-top:5px;
+}
+
+.subscribe>button>i {
+    margin-right: 5px;
+}
+
+.subscribe div{
+    background-color: #fafafa;
+    padding: 4.5px;
+    border: 1px solid #ccc;
+}
+
+.subscribe div p{
+    color: #888;
 }
