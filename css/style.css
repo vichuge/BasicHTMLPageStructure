@@ -138,12 +138,12 @@ nav {
 }
 
 .Up-next {
-    border-bottom: 1px solid #e5e5e5;
-    padding: 0px 0 10px 0;
-    margin: 15px 0 !important;
-    display: flex;
-    font-family: "YouTube Noto", Roboto, arial, sans-serif !important;
-    flex-direction: column;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0px 0 10px 0;
+  margin: 0 0 15px 0 !important;
+  display: flex;
+  font-family: "YouTube Noto", Roboto, arial, sans-serif !important;
+  flex-direction: column;
 }
 
 #video-right-sample h3 {
@@ -207,4 +207,56 @@ nav {
 
 .profile-info{
     margin-left: 10px;
+}
+
+#next-play-left p {
+  font-size: 13px;
+  padding: 5px 0;
+}
+#next-play-right {
+  color: #7e7e7e;
+  font-size: 13px !important;
+}
+#next-play-right > i {
+  margin: 0 5px;
+}
+#radio-label {
+  width: 40px;
+  height: 16px;
+  position: relative;
+  display: inline-block;
+}
+#radio-label input {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+#toggler {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #167ac6;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+#toggler i {
+  color: white;
+  font-size: 10px;
+}
+#toggler:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 1px;
+  background-color: white;
+  border-radius: 50%;
+}
+#toggler:before {
+  transform: translateX(20px);
 }
