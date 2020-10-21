@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
+
+<head>
     <title>Basic HTML Page Structure</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  </head>
+</head>
 
-  <body>
+<body>
     <nav>
       <div id="grid-navbar">
         <!-- style="background-color: blueviolet" -->
@@ -70,71 +71,142 @@
               </div>
             </div>
             <div>
-              <div id="video-right-sample-left">
-                <img src="https://placekitten.com/200/140" />
-              </div>
-              <div id="video-right-sample-right">
-                <h3>
-                  4 Cute fluffy ball of furs drinking milk and licking hair
-                </h3>
-                <div id="video-sample-details">
-                  <p>The Neko Master</p>
-                  <p>99,999,999 views</p>
-                </div>
-              </div>
+                <i class="fas fa-align-justify fa-1x"></i>
+                <img src="src/logo3.png" width="120px" />
             </div>
-          </div>
-          <div id="video-right-sample">
-            <div id="video-right-sample-left">
-              <img src="https://placekitten.com/200/140" />
+            <div id="input-wrapper">
+                <input type="text" placeholder="Search" />
+                <button type="button" class="button-search">
+                    <i class="fas fa-search fa-1x"></i>
+                </button>
             </div>
-            <div id="video-right-sample-right">
-              <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
-              <div id="video-sample-details">
-                <p>The Neko Master</p>
-                <p>99,999,999 views</p>
-              </div>
+            <div>
+                <i class="fas fa-upload fa-lg"></i>
+                <button id="navbar-btn">Sign in</button>
             </div>
-          </div>
-          <div id="video-right-sample">
-            <div id="video-right-sample-left">
-              <img src="https://placekitten.com/200/140" />
-            </div>
-            <div id="video-right-sample-right">
-              <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
-              <div id="video-sample-details">
-                <p>The Neko Master</p>
-                <p>99,999,999 views</p>
-              </div>
-            </div>
-          </div>
-          <div id="video-right-sample">
-            <div id="video-right-sample-left">
-              <img src="https://placekitten.com/200/140" />
-            </div>
-            <div id="video-right-sample-right">
-              <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
-              <div id="video-sample-details">
-                <p>The Neko Master</p>
-                <p>99,999,999 views</p>
-              </div>
-            </div>
-          </div>
-          <div id="video-right-sample">
-            <div id="video-right-sample-left">
-              <img src="https://placekitten.com/200/140" />
-            </div>
-            <div id="video-right-sample-right">
-              <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
-              <div id="video-sample-details">
-                <p>The Neko Master</p>
-                <p>99,999,999 views</p>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
+    </nav>
+    <section class="content">
+        <section id="language-box">
+            <div class="row p1">
+                <div id="p1-left">
+                    <i class="fas fa-user fa-1x"></i>
+                    <p>Choose your language.</p>
+                </div>
+                <div id="p1-right">
+                    <i class="fas fa-times fa-1x"></i>
+                </div>
+            </div>
+            <div class="row p2">
+                <div id="p2-left">
+                    <p>
+                        You're viewing YouTube in English (US). You can
+                        <a href="">change this preference below.</a>
+                    </p>
+                </div>
+                <div id="p2-right">
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+        </section>
+        <section id="video-section">
+            <div id="video-left">
+                <div class="video-player">
+                    <img src="https://placekitten.com/408/287" />
+                </div>
+                <div class="video-info">
+                    <h2>Contributing to Open Source Part I: The Easy Way</h2>
+                    <div class="body-info">
+                        <div class="profile-image">
+                            <img src="https://placekitten.com/100/100" />
+                        </div>
+                        <div class="profile-info">
+                            <h4>The Odin Project</h4>
+                            <button type="button">Subcribe</button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="video-right">
+                <div id="video-right-sample" class="Up-next">
+                    <div id="next-play">
+                        <div id="next-play-left">
+                            <p>Up next</p>
+                        </div>
+                        <div id="next-play-right">
+                            <span>Autoplay</span>
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="video-right-sample-left">
+                            <img src="https://placekitten.com/200/140" />
+                        </div>
+                        <div id="video-right-sample-right">
+                            <h3>
+                                4 Cute fluffy ball of furs drinking milk and licking hair
+                            </h3>
+                            <div id="video-sample-details">
+                                <p>The Neko Master</p>
+                                <p>99,999,999 views</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="video-right-sample">
+                    <div id="video-right-sample-left">
+                        <img src="https://placekitten.com/200/140" />
+                    </div>
+                    <div id="video-right-sample-right">
+                        <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
+                        <div id="video-sample-details">
+                            <p>The Neko Master</p>
+                            <p>99,999,999 views</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="video-right-sample">
+                    <div id="video-right-sample-left">
+                        <img src="https://placekitten.com/200/140" />
+                    </div>
+                    <div id="video-right-sample-right">
+                        <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
+                        <div id="video-sample-details">
+                            <p>The Neko Master</p>
+                            <p>99,999,999 views</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="video-right-sample">
+                    <div id="video-right-sample-left">
+                        <img src="https://placekitten.com/200/140" />
+                    </div>
+                    <div id="video-right-sample-right">
+                        <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
+                        <div id="video-sample-details">
+                            <p>The Neko Master</p>
+                            <p>99,999,999 views</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="video-right-sample">
+                    <div id="video-right-sample-left">
+                        <img src="https://placekitten.com/200/140" />
+                    </div>
+                    <div id="video-right-sample-right">
+                        <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
+                        <div id="video-sample-details">
+                            <p>The Neko Master</p>
+                            <p>99,999,999 views</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
     <!--<script src="js/scripts.js"></script>-->
-  </body>
+</body>
+
 </html>
