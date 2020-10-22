@@ -28,8 +28,8 @@
 
 ## Usage
 
-     * This project is made using HTML & CSS.
-     * You don't need any tools to run it, Just open the index.html in your favorite browser and it's done.
+      This project is made using HTML & CSS.
+      You don't need any tools to run it, Just open the index.html in your favorite browser and it's done.
 
 ## Contribuiting
 
