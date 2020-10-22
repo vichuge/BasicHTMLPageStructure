@@ -4,8 +4,8 @@ This is the first project on CSS/HTML curriculum in microverse course
 
 ## Participants
 
-Victor Pacheco
-Abdo Amin
+* Victor Pacheco
+* Abdo Amin
 
 ## Usage
 
