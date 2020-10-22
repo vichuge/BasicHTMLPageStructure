@@ -37,4 +37,4 @@ All issues are welcome to improve this project.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](./LICENSE)
