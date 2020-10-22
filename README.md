@@ -26,6 +26,11 @@
     4- Open with LIVE Server.
     5- SMILE! :)
 
+## Usage
+
+     * This project is made using HTML & CSS.
+     * You don't need any tools to run it, Just open the index.html in your favorite browser and it's done.
+
 ## Contribuiting
 
 All issues are welcome to improve this project.
