@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* resetting the default sizing of divs*/
 }
 
 body {
@@ -24,7 +23,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+#grid-navbar div img {
+  width: 120px;
+}
 #grid-navbar > div > i {
   margin: 0 5px;
   color: rgb(161 161 161) !important;
@@ -160,7 +161,6 @@ nav {
 #video-right-sample {
   display: flex;
   font-family: "YouTube Noto", Roboto, arial, sans-serif !important;
-  /* flex-direction: column; */
 }
 
 .Up-next > div {
@@ -210,11 +210,6 @@ nav {
 }
 
 .body-info {
-  /*When use display:flex, for columns we use justifiy-content:center and align-items:center*/
-  /*display: flex;
-    justify-content: flex-start;
-    align-items: center;*/
-
   border-bottom: 1px solid #e2e2e2;
   padding-bottom: 10px;
   display: grid;

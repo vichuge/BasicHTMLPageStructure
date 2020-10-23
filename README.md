@@ -1,17 +1,22 @@
 **![](https://img.shields.io/badge/-microverse-yellow)**
 
-# Screenshot
-
-![screenshot](/src/screenshot_1.png)
-
 # Basic HTML Page Structure (Youtube Page)
 
 > This is the first project on CSS/HTML curriculum in microverse course
 
+# Screenshot
+
+![screenshot](/src/screenshot_1.png)
+
 ## Participants
 
 - 🤓 **Victor Pacheco**
-- 😎 **Abdo Amin**.
+- GitHub: [@elberthcorniell](https://github.com/vichuge)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-pacheco-7946aab2/)
+- 😎 **Abdo Amin**
+- GitHub: [@Abdelrhman-Amin](https://github.com/AbdelrhmanAmin)
+- Twitter: [@Abdo-Amin](https://twitter.com/AbdoAmi60489112)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdo-amin-ab786a1b0/)
 
 ## Built
 
