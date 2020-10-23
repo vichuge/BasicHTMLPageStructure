@@ -140,7 +140,7 @@ nav {
   background: white;
 }
 
-#video-right-sample {
+.video-right-sample {
   margin: 10px 0;
 }
 
@@ -153,12 +153,12 @@ nav {
   flex-direction: column;
 }
 
-#video-right-sample h3 {
+.video-right-sample h3 {
   font-size: 14px;
   font-weight: 300;
 }
 
-#video-right-sample {
+.video-right-sample {
   display: flex;
   font-family: "YouTube Noto", Roboto, arial, sans-serif !important;
 }
@@ -168,22 +168,22 @@ nav {
   justify-content: space-between;
 }
 
-#video-right-sample-left img {
+.video-right-sample-left img {
   height: 95px;
   width: 170px;
 }
 
-#video-right-sample-right {
+.video-right-sample-right {
   padding: 5px 10px;
 }
 
-#video-sample-details > p:first-child {
+.video-sample-details > p:first-child {
   font-size: 12px;
   margin: 3px 0;
   color: #959595;
 }
 
-#video-sample-details > p:last-child {
+.video-sample-details > p:last-child {
   font-size: 10px;
   margin: 3px 0;
   color: #959595;
@@ -511,11 +511,11 @@ footer > .footer > div > img {
 .footer > div {
   padding-left: 5px !important;
 }
-#video-right-sample-left {
+.video-right-sample-left {
   position: relative;
   text-align: center;
 }
-#timer {
+.timer {
   color: #f1f1f1;
   position: absolute;
   bottom: 5px;
