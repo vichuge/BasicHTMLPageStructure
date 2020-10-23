@@ -1,396 +1,404 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <title>Basic HTML Page Structure</title>
-    <link rel="stylesheet" href="src/css/style.css" />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  </head>
 
-  <body>
-    <nav>
-      <div id="grid-navbar">
-        <div>
-          <i class="fas fa-align-justify fa-1x"></i>
-          <img src="src/logo3.png"  alt="youtube-logo" />
+<head>
+  <title>Basic HTML Page Structure</title>
+  <link rel="stylesheet" href="src/css/style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+  <nav>
+    <div id="grid-navbar">
+      <div>
+        <a style="text-decoration:none;" href="#"><i class="fas fa-align-justify fa-1x"></i></a>
+        <a style="text-decoration:none;" href="#"><img src="src/logo3.png" alt="youtube-logo" /></a>
+      </div>
+      <div id="input-wrapper">
+        <input type="text" placeholder="Search" />
+        <button onclick="window.location.href='#'" type="button" class="button-search">
+          <i class="fas fa-search fa-1x"></i>
+        </button>
+      </div>
+      <div>
+        <a style="text-decoration:none;" href="#"><i class="fas fa-upload fa-lg"></i></a>
+        <a style="text-decoration:none;" href="#"><i class="fas fa-upload fa-lg"></i></a>
+        <a style="text-decoration:none;" href="#"><i class="fas fa-upload fa-lg"></i></a>
+        <!-- Circle image here-->
+      </div>
+    </div>
+  </nav>
+
+  <section class="content">
+    <section id="language-box">
+      <div class="row p1">
+        <div id="p1-left">
+          <i class="fas fa-user fa-1x"></i>
+          <p>Choose your language.</p>
         </div>
-        <div id="input-wrapper">
-          <input type="text" placeholder="Search" />
-          <button type="button" class="button-search">
-            <i class="fas fa-search fa-1x"></i>
-          </button>
-        </div>
-        <div>
-          <i class="fas fa-upload fa-lg"></i>
-          <button id="navbar-btn">Sign in</button>
+        <div id="p1-right">
+          <i class="fas fa-times fa-1x"></i>
         </div>
       </div>
-    </nav>
-
-    <section class="content">
-      <section id="language-box">
-        <div class="row p1">
-          <div id="p1-left">
-            <i class="fas fa-user fa-1x"></i>
-            <p>Choose your language.</p>
-          </div>
-          <div id="p1-right">
-            <i class="fas fa-times fa-1x"></i>
-          </div>
+      <div class="row p2">
+        <div id="p2-left">
+          <p>
+            You're viewing YouTube in English (US). You can
+            <a href="">change this preference below.</a>
+          </p>
         </div>
-        <div class="row p2">
-          <div id="p2-left">
-            <p>
-              You're viewing YouTube in English (US). You can
-              <a href="">change this preference below.</a>
-            </p>
-          </div>
-          <div id="p2-right">
-            <a href="">Learn more</a>
-          </div>
+        <div id="p2-right">
+          <a href="">Learn more</a>
         </div>
-      </section>
-      <section id="video-section">
-        <div id="video-left">
-          <div class="video-player">
-            <iframe
-              width="640"
-              height="360"
-              src="https://www.youtube.com/embed/xQ49jtlz_3I"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="video-info">
-            <h2>Adorable Carcal Cat SCREAMING FOR FOOD!!!!</h2>
-            <div class="body-info">
-              <div class="profile-image">
-                <img src="https://placekitten.com/50/50" alt="profile-image" />
-              </div>
-              <div id="profile-info-flex">
-                <div class="profile-info">
-                  <h3>PewDiePie</h3>
-                  <div class="subscribe">
-                    <button type="button" id="btn-subscribe">
-                      <i class="fab fa-youtube"></i>Subcribe
-                    </button>
-                    <div>
-                      <p>100,537,874</p>
-                    </div>
+      </div>
+    </section>
+    <section id="video-section">
+      <div id="video-left">
+        <div class="video-player">
+          <iframe width="640" height="360" src="https://www.youtube.com/embed/xQ49jtlz_3I" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="video-info">
+          <h2>Adorable Carcal Cat SCREAMING FOR FOOD!!!!</h2>
+          <div class="body-info">
+            <div class="profile-image">
+              <img src="https://placekitten.com/50/50" alt="profile-image" />
+            </div>
+            <div id="profile-info-flex">
+              <div class="profile-info">
+                <h3>PewDiePie</h3>
+                <div class="subscribe">
+                  <button onclick="window.location.href='#'" type="button" id="btn-subscribe">
+                    <i class="fab fa-youtube"></i>Subcribe
+                  </button>
+                  <div>
+                    <p>100,537,874</p>
                   </div>
                 </div>
-                <div id="views">
-                  <h1><strong>50,016</strong> Views</h1>
-                </div>
+              </div>
+              <div id="views">
+                <h1><strong>50,016</strong> Views</h1>
               </div>
             </div>
-            <div id="feedback">
-              <div id="feedback-left">
-                <div>
+          </div>
+          <div id="feedback">
+            <div id="feedback-left">
+              <div>
+                <a style="text-decoration:none;" href="#">
                   <i class="fas fa-plus"></i>
                   <span>Add to</span>
-                </div>
-                <div>
+                </a>
+              </div>
+              <div>
+                <a style="text-decoration:none;" href="#">
                   <i class="fas fa-share"></i>
                   <span>Share</span>
-                </div>
-                <div>
+                </a>
+              </div>
+              <div>
+                <a style="text-decoration:none;" href="#">
                   <i class="fas fa-ellipsis-h"></i>
                   <span>More</span>
-                </div>
+                </a>
               </div>
-              <div id="feedback-right">
-                <div>
+            </div>
+            <div id="feedback-right">
+              <div>
+                <a style="text-decoration:none;" href="#">
                   <i class="fas fa-thumbs-up"></i>
                   <span>95,543,789</span>
-                </div>
-                <div>
+                </a>
+              </div>
+              <div>
+                <a style="text-decoration:none;" href="#">
                   <i class="fas fa-thumbs-down"></i>
                   <span>-12</span>
-                </div>
+                </a>
               </div>
             </div>
-          </div>
-          <div class="video-desc">
-            <p>Published on Feb 27, 2014</p>
-            <p id="description">
-              How do you contribute to open source? In this video, I'll describe
-              the easiest way to make a simple contribution to an open source
-              project -- without using the command line, a text editor, "forking
-              a repo", or even touching Git outside of Github. I'll also
-              describe what kinds of contributions open source software projects
-              are typically looking for. As an example, I use submitting a
-              student solution to a web development exercise from The Odin
-              Project, a free online curriculum for learning web development
-              with Ruby on Rails. You can find more information about that
-              project at http://theodinproject.com.
-            </p>
-            <div class="desc-show">
-              <span>SHOW MORE</span>
-            </div>
-          </div>
-          <div id="loading">
-            <p>
-              <img src="src/download.gif" id="gif" alt="loading-gif" />
-              Loading...
-            </p>
           </div>
         </div>
-        <div id="video-right">
-          <div class="video-right-sample Up-next">
-            <div id="next-play">
-              <div id="next-play-left">
-                <p>Up next</p>
-              </div>
-              <div id="next-play-right">
-                <span>Autoplay</span>
-                <i class="fas fa-info-circle"></i>
-                <label id="radio-label">
-                  <input type="checkbox" checked />
-                  <span id="toggler"><i class="fas fa-check"></i></span>
-                </label>
-              </div>
-            </div>
-            <div>
-              <div class="video-right-sample-left">
-                <img src="https://placekitten.com/120/120" alt="thumbanil" />
-                <div class="timer">
-                  <span>14:25</span>
-                </div>
-              </div>
-              <div class="video-right-sample-right">
-                <h3>
-                  4 Cute fluffy ball of furs drinking milk and licking hair
-                </h3>
-                <div class="video-sample-details">
-                  <p>The Neko Master</p>
-                  <p>99,999,999 views</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="video-right-sample">
-            <div class="video-right-sample-left">
-              <img src="https://placekitten.com/200/140" alt="thumbanil" />
-              <div class="timer">
-                <span>14:25</span>
-              </div>
-            </div>
-            <div class="video-right-sample-right">
-              <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
-              <div class="video-sample-details">
-                <p>The Neko Master</p>
-                <p>99,999,999 views</p>
-              </div>
-            </div>
-          </div>
-          <div class="video-right-sample">
-            <div class="video-right-sample-left">
-              <img src="https://placekitten.com/200/140" alt="thumbanil" />
-              <div class="timer">
-                <span>14:25</span>
-              </div>
-            </div>
-            <div class="video-right-sample-right">
-              <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
-              <div class="video-sample-details">
-                <p>The Neko Master</p>
-                <p>99,999,999 views</p>
-              </div>
-            </div>
-          </div>
-          <div class="video-right-sample">
-            <div class="video-right-sample-left">
-              <img src="https://placekitten.com/200/140" alt="thumbanil" />
-              <div class="timer">
-                <span>14:25</span>
-              </div>
-            </div>
-            <div class="video-right-sample-right">
-              <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
-              <div class="video-sample-details">
-                <p>The Neko Master</p>
-                <p>99,999,999 views</p>
-              </div>
-            </div>
-          </div>
-          <div class="video-right-sample">
-            <div class="video-right-sample-left">
-              <img src="https://placekitten.com/200/140" alt="thumbanil" />
-              <div class="timer">
-                <span>14:25</span>
-              </div>
-            </div>
-            <div class="video-right-sample-right">
-              <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
-              <div class="video-sample-details">
-                <p>The Neko Master</p>
-                <p>99,999,999 views</p>
-              </div>
-            </div>
-          </div>
-          <div class="video-right-sample">
-            <div class="video-right-sample-left">
-              <img src="https://placekitten.com/200/140" alt="thumbanil" />
-              <div class="timer">
-                <span>14:25</span>
-              </div>
-            </div>
-            <div class="video-right-sample-right">
-              <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
-              <div class="video-sample-details">
-                <p>The Neko Master</p>
-                <p>99,999,999 views</p>
-              </div>
-            </div>
-          </div>
-          <div class="video-right-sample">
-            <div class="video-right-sample-left">
-              <img src="https://placekitten.com/200/140" alt="thumbanil" />
-              <div class="timer">
-                <span>14:25</span>
-              </div>
-            </div>
-            <div class="video-right-sample-right">
-              <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
-              <div class="video-sample-details">
-                <p>The Neko Master</p>
-                <p>99,999,999 views</p>
-              </div>
-            </div>
-          </div>
-          <div class="video-right-sample">
-            <div class="video-right-sample-left">
-              <img src="https://placekitten.com/200/140" alt="thumbanil" />
-              <div class="timer">
-                <span>14:25</span>
-              </div>
-            </div>
-            <div class="video-right-sample-right">
-              <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
-              <div class="video-sample-details">
-                <p>The Neko Master</p>
-                <p>99,999,999 views</p>
-              </div>
-            </div>
-          </div>
-          <div class="video-right-sample">
-            <div class="video-right-sample-left">
-              <img src="https://placekitten.com/200/140" alt="thumbanil" />
-              <div class="timer">
-                <span>14:25</span>
-              </div>
-            </div>
-            <div class="video-right-sample-right">
-              <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
-              <div class="video-sample-details">
-                <p>The Neko Master</p>
-                <p>99,999,999 views</p>
-              </div>
-            </div>
-          </div>
-          <div class="video-right-sample">
-            <div class="video-right-sample-left">
-              <img src="https://placekitten.com/200/140" alt="thumbanil" />
-              <div class="timer">
-                <span>14:25</span>
-              </div>
-            </div>
-            <div class="video-right-sample-right">
-              <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
-              <div class="video-sample-details">
-                <p>The Neko Master</p>
-                <p>99,999,999 views</p>
-              </div>
-            </div>
-          </div>
-          <div class="video-right-sample">
-            <div class="video-right-sample-left">
-              <img src="https://placekitten.com/200/140" alt="thumbanil" />
-              <div class="timer">
-                <span>14:25</span>
-              </div>
-            </div>
-            <div class="video-right-sample-right">
-              <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
-              <div class="video-sample-details">
-                <p>The Neko Master</p>
-                <p>99,999,999 views</p>
-              </div>
-            </div>
-          </div>
-          <div class="video-right-sample">
-            <div class="video-right-sample-left">
-              <img src="https://placekitten.com/200/140" alt="thumbanil" />
-              <div class="timer">
-                <span>14:25</span>
-              </div>
-            </div>
-            <div class="video-right-sample-right">
-              <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
-              <div class="video-sample-details">
-                <p>The Neko Master</p>
-                <p>99,999,999 views</p>
-              </div>
-            </div>
-          </div>
-          <div class="video-right-sample">
-            <div class="video-right-sample-left">
-              <img src="https://placekitten.com/200/140" alt="thumbanil" />
-              <div class="timer">
-                <span>14:25</span>
-              </div>
-            </div>
-            <div class="video-right-sample-right">
-              <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
-              <div class="video-sample-details">
-                <p>The Neko Master</p>
-                <p>99,999,999 views</p>
-              </div>
-            </div>
-          </div>
-          <div class="show-more">
+        <div class="video-desc">
+          <p>Published on Feb 27, 2014</p>
+          <p id="description">
+            How do you contribute to open source? In this video, I'll describe
+            the easiest way to make a simple contribution to an open source
+            project -- without using the command line, a text editor, "forking
+            a repo", or even touching Git outside of Github. I'll also
+            describe what kinds of contributions open source software projects
+            are typically looking for. As an example, I use submitting a
+            student solution to a web development exercise from The Odin
+            Project, a free online curriculum for learning web development
+            with Ruby on Rails. You can find more information about that
+            project at http://theodinproject.com.
+          </p>
+          <div class="desc-show">
             <span>SHOW MORE</span>
           </div>
         </div>
-      </section>
-    </section>
-
-    <footer>
-      <div class="footer">
-        <div class="configure">
-          <img src="src/logofooter.png" alt="logo-footer" />
-          <button type="button" class="markdown">
-            <i class="fas fa-language"></i>Language: English
-          </button>
-          <button type="button" class="markdown">Location: Netherlands</button>
-          <button type="button" class="markdown">Restricted Mode: Off</button>
-          <button type="button">
-            <i class="fas fa-hourglass-end"></i> History
-          </button>
-          <button type="button">
-            <i class="fas fa-question-circle"></i> Help
-          </button>
-        </div>
-        <div class="grid-about">
-          <div class="about">
-            <p>About</p>
-            <p>Press</p>
-            <p>Copyright</p>
-            <p>Creators</p>
-            <p>Advertise</p>
-            <p>Developers</p>
-          </div>
-          <div class="terms">
-            <p>Terms</p>
-            <p>Privacy</p>
-            <p>Policy & Safety</p>
-            <p id="double-margin">Test new features</p>
-          </div>
+        <div id="loading">
+          <p>
+            <img src="src/download.gif" id="gif" alt="loading-gif" />
+            Loading...
+          </p>
         </div>
       </div>
-    </footer>
-    <!--<script src="js/scripts.js"></script>-->
-  </body>
+      <div id="video-right">
+        <div class="video-right-sample Up-next">
+          <div id="next-play">
+            <div id="next-play-left">
+              <p>Up next</p>
+            </div>
+            <div id="next-play-right">
+              <span>Autoplay</span>
+              <i class="fas fa-info-circle"></i>
+              <label id="radio-label">
+                <input type="checkbox" checked />
+                <span id="toggler"><i class="fas fa-check"></i></span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div class="video-right-sample-left">
+              <img src="https://placekitten.com/120/120" alt="thumbanil" />
+              <div class="timer">
+                <span>14:25</span>
+              </div>
+            </div>
+            <div class="video-right-sample-right">
+              <h3>
+                4 Cute fluffy ball of furs drinking milk and licking hair
+              </h3>
+              <div class="video-sample-details">
+                <p>The Neko Master</p>
+                <p>99,999,999 views</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-right-sample">
+          <div class="video-right-sample-left">
+            <img src="https://placekitten.com/200/140" alt="thumbanil" />
+            <div class="timer">
+              <span>14:25</span>
+            </div>
+          </div>
+          <div class="video-right-sample-right">
+            <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
+            <div class="video-sample-details">
+              <p>The Neko Master</p>
+              <p>99,999,999 views</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-right-sample">
+          <div class="video-right-sample-left">
+            <img src="https://placekitten.com/200/140" alt="thumbanil" />
+            <div class="timer">
+              <span>14:25</span>
+            </div>
+          </div>
+          <div class="video-right-sample-right">
+            <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
+            <div class="video-sample-details">
+              <p>The Neko Master</p>
+              <p>99,999,999 views</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-right-sample">
+          <div class="video-right-sample-left">
+            <img src="https://placekitten.com/200/140" alt="thumbanil" />
+            <div class="timer">
+              <span>14:25</span>
+            </div>
+          </div>
+          <div class="video-right-sample-right">
+            <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
+            <div class="video-sample-details">
+              <p>The Neko Master</p>
+              <p>99,999,999 views</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-right-sample">
+          <div class="video-right-sample-left">
+            <img src="https://placekitten.com/200/140" alt="thumbanil" />
+            <div class="timer">
+              <span>14:25</span>
+            </div>
+          </div>
+          <div class="video-right-sample-right">
+            <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
+            <div class="video-sample-details">
+              <p>The Neko Master</p>
+              <p>99,999,999 views</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-right-sample">
+          <div class="video-right-sample-left">
+            <img src="https://placekitten.com/200/140" alt="thumbanil" />
+            <div class="timer">
+              <span>14:25</span>
+            </div>
+          </div>
+          <div class="video-right-sample-right">
+            <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
+            <div class="video-sample-details">
+              <p>The Neko Master</p>
+              <p>99,999,999 views</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-right-sample">
+          <div class="video-right-sample-left">
+            <img src="https://placekitten.com/200/140" alt="thumbanil" />
+            <div class="timer">
+              <span>14:25</span>
+            </div>
+          </div>
+          <div class="video-right-sample-right">
+            <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
+            <div class="video-sample-details">
+              <p>The Neko Master</p>
+              <p>99,999,999 views</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-right-sample">
+          <div class="video-right-sample-left">
+            <img src="https://placekitten.com/200/140" alt="thumbanil" />
+            <div class="timer">
+              <span>14:25</span>
+            </div>
+          </div>
+          <div class="video-right-sample-right">
+            <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
+            <div class="video-sample-details">
+              <p>The Neko Master</p>
+              <p>99,999,999 views</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-right-sample">
+          <div class="video-right-sample-left">
+            <img src="https://placekitten.com/200/140" alt="thumbanil" />
+            <div class="timer">
+              <span>14:25</span>
+            </div>
+          </div>
+          <div class="video-right-sample-right">
+            <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
+            <div class="video-sample-details">
+              <p>The Neko Master</p>
+              <p>99,999,999 views</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-right-sample">
+          <div class="video-right-sample-left">
+            <img src="https://placekitten.com/200/140" alt="thumbanil" />
+            <div class="timer">
+              <span>14:25</span>
+            </div>
+          </div>
+          <div class="video-right-sample-right">
+            <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
+            <div class="video-sample-details">
+              <p>The Neko Master</p>
+              <p>99,999,999 views</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-right-sample">
+          <div class="video-right-sample-left">
+            <img src="https://placekitten.com/200/140" alt="thumbanil" />
+            <div class="timer">
+              <span>14:25</span>
+            </div>
+          </div>
+          <div class="video-right-sample-right">
+            <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
+            <div class="video-sample-details">
+              <p>The Neko Master</p>
+              <p>99,999,999 views</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-right-sample">
+          <div class="video-right-sample-left">
+            <img src="https://placekitten.com/200/140" alt="thumbanil" />
+            <div class="timer">
+              <span>14:25</span>
+            </div>
+          </div>
+          <div class="video-right-sample-right">
+            <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
+            <div class="video-sample-details">
+              <p>The Neko Master</p>
+              <p>99,999,999 views</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-right-sample">
+          <div class="video-right-sample-left">
+            <img src="https://placekitten.com/200/140" alt="thumbanil" />
+            <div class="timer">
+              <span>14:25</span>
+            </div>
+          </div>
+          <div class="video-right-sample-right">
+            <h3>4 Cute fluffy ball of furs drinking milk and licking hair</h3>
+            <div class="video-sample-details">
+              <p>The Neko Master</p>
+              <p>99,999,999 views</p>
+            </div>
+          </div>
+        </div>
+        <div class="show-more">
+          <span>SHOW MORE</span>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="configure">
+        <img src="src/logofooter.png" alt="logo-footer" />
+        <button type="button" class="markdown">
+          <i class="fas fa-language"></i>Language: English
+        </button>
+        <button type="button" class="markdown">Location: Netherlands</button>
+        <button type="button" class="markdown">Restricted Mode: Off</button>
+        <button type="button">
+          <i class="fas fa-hourglass-end"></i> History
+        </button>
+        <button type="button">
+          <i class="fas fa-question-circle"></i> Help
+        </button>
+      </div>
+      <div class="grid-about">
+        <div class="about">
+          <p>About</p>
+          <p>Press</p>
+          <p>Copyright</p>
+          <p>Creators</p>
+          <p>Advertise</p>
+          <p>Developers</p>
+        </div>
+        <div class="terms">
+          <p>Terms</p>
+          <p>Privacy</p>
+          <p>Policy & Safety</p>
+          <p id="double-margin">Test new features</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
