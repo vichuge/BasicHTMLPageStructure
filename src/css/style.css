@@ -351,10 +351,6 @@ input:checked + .toggler:before {
   font-weight: 400;
 }
 
-.profile-info {
-  display: flex;
-}
-
 .feedback {
   display: flex;
   justify-content: space-between;
@@ -393,8 +389,7 @@ input:checked + .toggler:before {
   font-family: "YouTube Noto", Roboto, arial, sans-serif;
 }
 
-.video-desc,
-.loading {
+.video-desc {
   background-color: white;
   padding: 15px 15px 7px 15px;
   font-size: 12px;
@@ -422,6 +417,13 @@ input:checked + .toggler:before {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  padding: 15px 15px 7px 15px;
+  font-size: 12px;
+  box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  margin-right: 12px;
 }
 
 .loading p {
@@ -456,13 +458,14 @@ footer > .footer > div > img {
   padding-bottom: 15px;
 }
 
-.configure > button,
 .configure img {
   margin-right: 20px;
 }
 
 .configure > button {
   display: flex;
+
+  margin-right: 20px;
   align-items: center;
   background-color: #f8f8f8;
   padding: 0 10px 0 10px;
@@ -497,8 +500,7 @@ footer > .footer > div > img {
   display: flex;
 }
 
-.about > p,
-.terms > p {
+.about > p {
   margin: 14px 15px 0px 0;
   font-size: 13px;
   font-family: "Roboto", sans-serif;
@@ -507,6 +509,9 @@ footer > .footer > div > img {
 .terms > p {
   font-size: 11px;
   color: #888;
+  margin: 14px 15px 0px 0;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
 }
 
 .double-margin {
