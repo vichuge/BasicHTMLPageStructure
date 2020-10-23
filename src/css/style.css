@@ -535,3 +535,7 @@ footer > .footer > div > img {
   padding: 3px;
   opacity: 0.75;
 }
+
+a{
+  text-decoration: none;
+}

@@ -8,10 +8,11 @@
 
 ![screenshot](/src/screenshot_1.png)
 
-## Participants
+## Developers
 
 - 🤓 **Victor Pacheco**
 - GitHub: [@elberthcorniell](https://github.com/vichuge)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-pacheco-7946aab2/)
 - 😎 **Abdo Amin**
 - GitHub: [@Abdelrhman-Amin](https://github.com/AbdelrhmanAmin)
 - Twitter: [@Abdo-Amin](https://twitter.com/AbdoAmi60489112)
@@ -39,7 +40,7 @@
       This project is made using HTML & CSS.
       You don't need any tools to run it, Just open the index.html in your favorite browser and it's done.
 
-## Contribuiting
+## Contributing
 
 All issues are welcome to improve this project.
 
