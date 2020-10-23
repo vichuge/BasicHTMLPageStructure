@@ -12,7 +12,6 @@
 
 - 🤓 **Victor Pacheco**
 - GitHub: [@elberthcorniell](https://github.com/vichuge)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-pacheco-7946aab2/)
 - 😎 **Abdo Amin**
 - GitHub: [@Abdelrhman-Amin](https://github.com/AbdelrhmanAmin)
 - Twitter: [@Abdo-Amin](https://twitter.com/AbdoAmi60489112)
