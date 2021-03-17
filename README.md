@@ -42,8 +42,10 @@
 
 ## Contributing
 
-All issues are welcome to improve this project.
+Contributions, issues, and feature requests are welcome.
+
+Feel free to check the [issues page](https://github.com/vichuge/BasicHTMLPageStructure/issues).
 
 ## License
 
-[MIT](./LICENSE)
+This project is [MIT](./LICENSE) licensed.
